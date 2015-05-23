@@ -1,0 +1,20 @@
+{
+  "name": "pmcamp",
+  "version": "0.0.0",
+  "homepage": "https://github.com/taggon/pmcamp",
+  "authors": [
+    "TaegonKim <gonom9@gmail.com>"
+  ],
+  "description": "Product management camp",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.4"
+  }
+}
