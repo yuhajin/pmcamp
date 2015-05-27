@@ -1,9 +1,13 @@
 <?php
+session_start();
+
 if ($_POST['username']) {
 	include 'config.php';
 
 	$db = new PDO("mysql:host={$db_host};dbname={$db_name}", $db_user, $db_password);
 	$db->exec("INSERT INTO users (username, `password`) VALUES ('{$_POST['username']}','".sha1($_POST['password'])."')") or die(print_r($db->errorInfo(), true));
+
+	header('Location: /login.php');
 }
 ?>
 <!doctype html>
