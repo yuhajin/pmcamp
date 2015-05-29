@@ -17,6 +17,17 @@
 		border-top:1px solid #777;
 		padding:15px;
 	}
+	form.post {
+		height:100%;
+	}
+	.btn-save {
+		display:block;
+		height:100%;
+	}
+	.meta {
+		font-size:90%;
+		color:#999;
+	}
 	</style>
 	<script src="bower_components/jquery/dist/jquery.min.js"></script>
 	<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
