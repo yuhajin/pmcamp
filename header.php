@@ -6,6 +6,7 @@
 	<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
 	<style>
 	.row.content {
+		margin-top:5px;
 		border:1px solid #ccc;
 		padding:20px;
 		border-radius:5px;
@@ -15,6 +16,17 @@
 		margin-top:50px;
 		border-top:1px solid #777;
 		padding:15px;
+	}
+	form.post {
+		height:100%;
+	}
+	.btn-save {
+		display:block;
+		height:100%;
+	}
+	.meta {
+		font-size:90%;
+		color:#999;
 	}
 	</style>
 	<script src="bower_components/jquery/dist/jquery.min.js"></script>

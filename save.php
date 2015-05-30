@@ -12,6 +12,7 @@ if ($_POST['content']) {
 		VALUES ({$_SESSION['user_id']}, '{$_POST['content']}', 0, ".time().")
 	");
 
-	echo 'Saved '.$affected;
+	header('Content-Type: application/json');
+	echo '{"status":1}';
 }
 ?>
